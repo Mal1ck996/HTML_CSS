@@ -390,6 +390,89 @@ p {
 
 
 /* =============== task 8 ============================= */
+.out-8 {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "news-1 news-2 news-4"
+    "news-3 news-2 news-4"
+    "footer footer footer";
+    grid-gap: 5px;
+    margin: 0;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.out-8 header {
+    grid-area: header;
+}
+
+.out-8 .news-1 {
+    grid-area: news-1;
+
+}
+
+.out-8 .news-2 {
+    grid-area: news-2;
+}
+
+.out-8 .news-3 {
+    grid-area: news-3;
+}
+
+.out-8 .news-4 {
+    grid-area: news-4;
+}
+
+.out-8 footer {
+    grid-area: footer;
+}
 
 /* =============== task 9 ============================= */
+.out-9 {
+    display: grid;
+    grid-template-areas:
+    "header header header header header header"
+    "news-1 news-1 news-1 news-1 news-1 news-1"
+    "news-2 news-2 news-3 news-3 news-4 news-4"
+    "footer footer footer footer footer footer";
+    grid-gap: 5px;
+    margin: 0;
+    grid-template-rows: 50px 50px 50px 50px;
+}
 
+.out-9 header {
+    grid-area: header;
+}
+
+.out-9 .news-1 {
+    display: grid;
+    grid-gap: 5px;
+    grid-area: news-1;
+    grid-template-areas:
+    "news-5 news-5 news-5 news-6 news-6 news-6"
+    "news-5 news-5 news-5 news-6 news-6 news-6";
+}
+
+.out-9 .news-2 {
+    grid-area: news-2;
+}
+
+.out-9 .news-3 {
+    grid-area: news-3;
+}
+
+.out-9 .news-4 {
+    grid-area: news-4;
+}
+
+.out-9 .news-5 {
+    grid-area: news-5;
+}
+
+.out-9 .news-6 {
+    grid-area: news-6;
+}
+
+.out-9 footer {
+    grid-area: footer;
+}
