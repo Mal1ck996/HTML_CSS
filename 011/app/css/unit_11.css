@@ -109,24 +109,24 @@ p {
 
 /* ================ task 1 ========================= */
 
-.out-1 .block-1, .block-2, .block-3, .block-4 {
+.out-1 .block-1, .out-1 .block-2, .out-1 .block-3, .out-1 .block-4 {
     width: 23%;
     float: left;
 }
 
 @media (max-width: 800px) {
 
-    .out-1 .block-1, .block-2{
+    .out-1 .block-1, .out-1 .block-2{
         width: 48%;
     }
 
-    .out-1 .block-3, .block-4{
+    .out-1 .block-3, .out-1 .block-4{
         width: 48%;
     }
 }
 
 @media (max-width: 600px) {
-    .out-1 .block-1, .block-2, .block-4 {
+    .out-1 .block-1, .out-1 .block-2, .out-1 .block-4 {
         width: 98%;
     }
 
@@ -137,7 +137,7 @@ p {
 
 /* ================ task 2 ========================= */
 
-.out-2 .block-1, .block-2, .block-3{
+.out-2 .block-1, .out-2 .block-2, .out-2 .block-3{
     width: 31%;
     float: left;
 }
@@ -149,7 +149,7 @@ p {
 
 @media (max-width: 800px) {
 
-    .out-2 .block-1, .block-2{
+    .out-2 .block-1, .out-2 .block-2{
         width: 48%;
     }
 
@@ -163,7 +163,7 @@ p {
 }
 
 @media (max-width:600px) {
-    .out-2 .block-1, .block-2 {
+    .out-2 .block-1, .out-2 .block-2 {
         width: 48%;
     }
 
@@ -183,13 +183,13 @@ p {
     float: left;
 }
 
-.out-3 .block-2, .block-3, .block-4 {
+.out-3 .block-2, .out-3 .block-3, .out-3 .block-4 {
     width: 31%;
     float: left;
 }
 
 @media (max-width:800px) {
-    .out-3 .block-2, .block-3 {
+    .out-3 .block-2, .out-3 .block-3 {
         width: 48%;
     }
 
